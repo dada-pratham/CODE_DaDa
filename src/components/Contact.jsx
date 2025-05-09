@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import contact from '../assets/contact.png';
 
 
 function Contact() {
@@ -11,7 +12,7 @@ function Contact() {
           {/* Left Side - Text and Image */}
           <div className="col-md-6 mb-4">
 
-            <img src="/contact.png" alt="Contact" className=" contact-image" />
+            <img src= {contact} alt="Contact" className=" contact-image" />
           </div>
 
          {/* Right Side - Contact Form */}

@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutUS from '../assets/AboutUS.png';
 
 // Data Object
 const aboutData = {
  
-    image: '/AboutUs.png', // Replace with your actual image path
+    image: AboutUS, // Replace with your actual image path
     description1:
       "We are a team of experienced software engineers with a deep passion for helping students navigate their tech careers confidently and successfully.",
     description2:
