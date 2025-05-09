@@ -1,4 +1,9 @@
 import React from 'react';
+import pratham from '../assets/pratham.jpg';
+import kunal from '../assets/kunal.jpg';
+import aishwarya from '../assets/aishwarya.jpg';
+import Rushi from '../assets/Rushi.jpg';
+
 
 const guides = [
   {
@@ -6,28 +11,28 @@ const guides = [
     profession: "Senior Software Engineer",
     qualification: "BE (Mechanical)",
     experience: "4+ Years",
-    image: "/pratham.jpg",
+    image: pratham ,
   },
   {
     name: "Kunal Aglave",
     profession: "Software Engineer Specialist ",
     qualification: "BE (Mechanical)",
     experience: "4+ Years",
-    image: "/kunal.jpg",
+    image: kunal ,
   },
   {
     name: "Aishwarya Gadekar",
     profession: "Senior Bilingual Developer",
     qualification: "BE (Mechanical)(JLPT N3 Certified)",
     experience: "4+ Years",
-    image: "/aishwarya.jpg",
+    image:  aishwarya ,
   },
   {
     name: "Rushikesh Galhe",
     profession: "Software Engineer",
     qualification: "BE (CS/IT)",
     experience: "4+ Years",
-    image: "/Rushi.jpg",
+    image: Rushi ,
   },
 ];
 

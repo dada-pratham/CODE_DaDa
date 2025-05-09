@@ -1,52 +1,60 @@
 import React from 'react';
+import Csharp from '../assets/C sharp.jpg';
+import japanese from '../assets/japanese.jpg';
+import BasicElectronics from '../assets/Basic Electronics.jpeg';
+import data_analysis from '../assets/data-analysis.jpeg';
+import cpp from '../assets/Cpp.jpg';
+import react from '../assets/React.jpg';
+import HTML from '../assets/HTML.jpg';
+import SolidWorks from '../assets/SolidWorks.png';
 
 const courses = [
   {
     title: "Software Development (C#)",
     desc: "Learn C# programming fundamentals and build applications using .NET framework.",
-    image: "/C sharp.jpg",
+    image: Csharp ,
     level: "Beginner"
   },
   {
     title: "Japanese Language & Culture",
     desc: "Comprehensive course covering Japanese language (N5-N4 level) and cultural traditions.",
-    image: "/japanese.jpg",
+    image: japanese ,
     level: "Intermediate"
   },
   {
     title: "Basic Electronics & PCB Design",
     desc: "Introduction to electronic components, circuit design, and PCB layout fundamentals.",
-    image: "/Basic Electronics.jpeg",
+    image: BasicElectronics ,
     level: "Beginner"
   },
   {
     title: "Data Analysis (Power BI, SQL, Excel)",
     desc: "Master data visualization with Power BI, database querying with SQL, and analysis with Excel.",
-    image: "/data-analysis.jpeg",
+    image: data_analysis ,
     level: "Intermediate"
   },
   {
     title: "Software Development (C++)",
     desc: "Learn object-oriented programming and system development using C++.",
-    image: "/cpp.jpg",
+    image: cpp,
     level: "Beginner"
   },
   {
     title: "Web Development (React JS)",
     desc: "Build modern web applications using React.js framework and related technologies.",
-    image: "/React.jpg",
+    image: react ,
     level: "Beginner"
   },
   {
     title: "Web Development (HTML/CSS/Javascript)",
     desc: "Fundamentals of front-end web development using core web technologies.",
-    image: "/HTML.jpg",
+    image: HTML,
     level: "Beginner"
   },
   {
     title: "Mechanical CAD (Solidworks)",
     desc: "Learn 3D modeling, assembly design, and technical drawing using Solidworks software.",
-    image: "/SolidWorks.png",
+    image: SolidWorks ,
     level: "Intermediate"
   }
 ];

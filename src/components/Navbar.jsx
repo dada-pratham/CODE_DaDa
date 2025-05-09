@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import Brand from '../assets/Brand.jpg';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +59,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-custom fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#hero">
-          <img src="/Brand.jpg" alt="CODE_DaDa" className="navbar-logo" />
+          <img src={Brand} alt="CODE_DaDa" className="navbar-logo" />
         </a>
 
         <motion.button 

@@ -1,4 +1,6 @@
 import React from 'react';
+import Supporter_logo from '../assets/Supporter logo.png';
+import Supporter_logo2 from '../assets/work-team-digital-art.png';
 
 const Supporter = () => {
   return (
@@ -12,7 +14,7 @@ const Supporter = () => {
           </div>
           <div className="small-logo-container">
             <img
-              src="/Supporter logo.png"
+              src={Supporter_logo}
               alt="AGE OF ROBOTICS Logo"
               className="small-logo-dark"
             />
@@ -45,7 +47,7 @@ const Supporter = () => {
           
           <div className="large-image-container-dark">
             <img
-              src="/work-team-digital-art.png"
+              src={Supporter_logo2}
               alt="AGE OF ROBOTICS Channel Preview"
               className="large-image-dark"
             />

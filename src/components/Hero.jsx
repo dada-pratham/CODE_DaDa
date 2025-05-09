@@ -1,4 +1,5 @@
 import React from 'react';
+import hero from '../assets/Hero.png';
 
 function Hero() {
   return (
@@ -21,7 +22,7 @@ function Hero() {
             </a>
           </div>
           <div className="hero-image" data-aos="fade-left">
-            <img src="/Hero.png" alt="Learning Illustration" />
+            <img src= {hero} alt="Learning Illustration" />
           </div>
         </div>
       </section>
