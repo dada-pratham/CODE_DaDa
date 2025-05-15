@@ -1,21 +1,36 @@
 {
   "files": {
-    "main.css": "/CODE_DaDa/static/css/main.fd62c88d.css",
-    "main.js": "/CODE_DaDa/static/js/main.380b0de1.js",
+    "main.css": "/CODE_DaDa/static/css/main.34dc0577.css",
+    "main.js": "/CODE_DaDa/static/js/main.5daf9ff2.js",
+    "static/media/contact.jpg": "/CODE_DaDa/static/media/contact.30b3ee8e94ca45cfc51c.jpg",
+    "static/media/Guides.jpg": "/CODE_DaDa/static/media/Guides.7f8b01e85c89aa2eedbc.jpg",
+    "static/media/AboutUS.png": "/CODE_DaDa/static/media/AboutUS.0a1e9a88136fc88f0d2e.png",
+    "static/media/work-team-digital-art.png": "/CODE_DaDa/static/media/work-team-digital-art.b593d5de949b32686b02.png",
+    "static/media/Hero.jpg": "/CODE_DaDa/static/media/Hero.39714c9cd124fd5c3e1f.jpg",
+    "static/media/Supporter logo.png": "/CODE_DaDa/static/media/Supporter logo.a221e03ff7d3c16a91c5.png",
     "static/media/fa-solid-900.ttf": "/CODE_DaDa/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/C sharp.jpg": "/CODE_DaDa/static/media/C sharp.594383570bb1d6481b7a.jpg",
     "static/media/fa-brands-400.ttf": "/CODE_DaDa/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/SolidWorks.png": "/CODE_DaDa/static/media/SolidWorks.dd063d054399c216db1c.png",
+    "static/media/React.jpg": "/CODE_DaDa/static/media/React.70dc4576951df08075be.jpg",
     "static/media/fa-solid-900.woff2": "/CODE_DaDa/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/fa-brands-400.woff2": "/CODE_DaDa/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/data-analysis.jpeg": "/CODE_DaDa/static/media/data-analysis.77fd2395f0c379bbf339.jpeg",
     "static/media/fa-regular-400.ttf": "/CODE_DaDa/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/Cpp.jpg": "/CODE_DaDa/static/media/Cpp.1f4329f6a6f35d37501b.jpg",
+    "static/media/japanese.jpg": "/CODE_DaDa/static/media/japanese.af21098d59bd81449c13.jpg",
+    "static/media/Basic Electronics.jpeg": "/CODE_DaDa/static/media/Basic Electronics.91a788c257bdcb1f20ff.jpeg",
+    "static/media/HTML.jpg": "/CODE_DaDa/static/media/HTML.93ea0400ed3ee4079ec3.jpg",
     "static/media/fa-regular-400.woff2": "/CODE_DaDa/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/Brand.jpg": "/CODE_DaDa/static/media/Brand.f84a2835336f34c4a067.jpg",
     "static/media/fa-v4compatibility.ttf": "/CODE_DaDa/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/CODE_DaDa/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/CODE_DaDa/index.html",
-    "main.fd62c88d.css.map": "/CODE_DaDa/static/css/main.fd62c88d.css.map",
-    "main.380b0de1.js.map": "/CODE_DaDa/static/js/main.380b0de1.js.map"
+    "main.34dc0577.css.map": "/CODE_DaDa/static/css/main.34dc0577.css.map",
+    "main.5daf9ff2.js.map": "/CODE_DaDa/static/js/main.5daf9ff2.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd62c88d.css",
-    "static/js/main.380b0de1.js"
+    "static/css/main.34dc0577.css",
+    "static/js/main.5daf9ff2.js"
   ]
 }
