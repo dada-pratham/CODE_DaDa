@@ -1,7 +1,12 @@
 import React from 'react';
-import hero from '../assets/Hero.png';
+import hero from '../assets/Hero.jpg';
 
 function Hero() {
+  const phone = '918698001230'; // Your WhatsApp number
+  const text = `Hi, I want to book a learning session.\nName:\nCourse Code:\nInterested Field/Domain:`;
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+
+
   return (
     <>
       <section
@@ -29,7 +34,7 @@ function Hero() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/+918698001230"
+        href= {url}
         className="contact_icon"
         target="_blank"
         rel="noopener noreferrer"
