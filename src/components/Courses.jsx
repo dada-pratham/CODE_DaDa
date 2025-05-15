@@ -12,52 +12,61 @@ const courses = [
   {
     title: "Software Development (C#)",
     desc: "Learn C# programming fundamentals and build applications using .NET framework.",
-    image: Csharp ,
-    level: "Beginner"
+    image: Csharp,
+    level: "Beginner",
+    courseCode: "CS101"
   },
   {
     title: "Japanese Language & Culture",
     desc: "Comprehensive course covering Japanese language (N5-N4 level) and cultural traditions.",
-    image: japanese ,
-    level: "Intermediate"
+    image: japanese,
+    level: "Intermediate",
+    courseCode: "JA102"
   },
   {
     title: "Basic Electronics & PCB Design",
     desc: "Introduction to electronic components, circuit design, and PCB layout fundamentals.",
-    image: BasicElectronics ,
-    level: "Beginner"
+    image: BasicElectronics,
+    level: "Beginner",
+    courseCode: "EE103"
   },
   {
     title: "Data Analysis (Power BI, SQL, Excel)",
     desc: "Master data visualization with Power BI, database querying with SQL, and analysis with Excel.",
-    image: data_analysis ,
-    level: "Intermediate"
+    image: data_analysis,
+    level: "Intermediate",
+    courseCode: "DA201"
   },
   {
     title: "Software Development (C++)",
     desc: "Learn object-oriented programming and system development using C++.",
     image: cpp,
-    level: "Beginner"
+    level: "Beginner",
+    courseCode: "CS104"
   },
   {
     title: "Web Development (React JS)",
     desc: "Build modern web applications using React.js framework and related technologies.",
-    image: react ,
-    level: "Beginner"
+    image: react,
+    level: "Beginner",
+    courseCode: "WD105"
   },
   {
     title: "Web Development (HTML/CSS/Javascript)",
     desc: "Fundamentals of front-end web development using core web technologies.",
     image: HTML,
-    level: "Beginner"
+    level: "Beginner",
+    courseCode: "WD106"
   },
   {
     title: "Mechanical CAD (Solidworks)",
     desc: "Learn 3D modeling, assembly design, and technical drawing using Solidworks software.",
-    image: SolidWorks ,
-    level: "Intermediate"
+    image: SolidWorks,
+    level: "Intermediate",
+    courseCode: "ME107"
   }
 ];
+
 function Courses() {
   return (
     <section id="courses" className="py-5">
@@ -72,7 +81,9 @@ function Courses() {
                 <div className="card-body course-card-body">
                   <h5 className="course-title">{course.title}</h5>
                   <p className="course-desc">{course.desc}</p>
-                  
+                   {/* Display Course Code */}
+                  <p className="course-code"><strong>Course Code:</strong> {course.courseCode}</p>
+
                   <p className="course-detail"><strong>Level:</strong> {course.level}</p>
                 </div>
               </div>

@@ -25,7 +25,6 @@ function Navbar() {
       }
     };
 
-    // Set initial active section based on hash
     if (window.location.hash) {
       setActiveSection(window.location.hash);
     }
@@ -43,6 +42,18 @@ function Navbar() {
     };
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('mobile-menu-open');
+    } else {
+      document.body.classList.remove('mobile-menu-open');
+    }
+    
+    return () => {
+      document.body.classList.remove('mobile-menu-open');
+    };
+  }, [isOpen]);
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -58,7 +69,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#hero">
+        <a className="navbar-brand" href="#hero" onClick={() => setIsOpen(false)}>
           <img src={Brand} alt="CODE_DaDa" className="navbar-logo" />
         </a>
 
@@ -68,6 +79,7 @@ function Navbar() {
           onClick={toggleMenu}
           aria-label="Toggle navigation"
           whileTap={{ scale: 0.9 }}
+          aria-expanded={isOpen}
         >
           <motion.span 
             className="toggler-bar"
@@ -92,7 +104,7 @@ function Navbar() {
           />
         </motion.button>
 
-        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
+        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
           <ul className="navbar-nav ms-auto">
             {navLinks.map((link, index) => (
               <motion.li 

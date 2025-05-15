@@ -6,7 +6,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Guides from './components/Guides';
 import AboutUs from './components/AboutUs';
-import Supporter from './components/Supporter.jsx';
+import Supporter from './components/Supporter';
+import WhyChooseUs from './components/WhyChooseUs';
+import FeedbackSlider from './components/FeedbackSlider';
 
 
 
@@ -18,7 +20,9 @@ function App() {
       <AboutUs />
       <Supporter />
       <Courses />
+      <WhyChooseUs/>
       <Guides />
+      <FeedbackSlider/>
       <Contact />
       <Footer />
       
