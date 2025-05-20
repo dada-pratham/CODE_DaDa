@@ -32,7 +32,7 @@ function Contact() {
 
     emailjs
       .send(
-        'service_dgrn6zn',
+        'service_ob7i3pr',
         'template_kq5y7wd',
         formData,
         '-sDgiWCZtkR01d42T'
