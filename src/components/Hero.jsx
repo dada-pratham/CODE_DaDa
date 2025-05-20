@@ -2,20 +2,15 @@ import React from 'react';
 import hero from '../assets/Hero.jpg';
 
 function Hero() {
-  const phone = '918698001230'; // Your WhatsApp number
+  const phone = '918698001230';
   const text = `Hi, I want to book a learning session.\nName:\nCourse Code:\nInterested Field/Domain:`;
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 
-
   return (
     <>
-      <section
-        id="hero"
-        className="d-flex align-items-center"
-        style={{ minHeight: '100vh' }}
-      >
-        <div className="container d-flex flex-column-reverse flex-md-row align-items-center justify-content-between">
-          <div className="hero-content text-center text-md-start">
+      <section id="hero">
+        <div className="container hero-container">
+          <div className="hero-text">
             <h1>
               Unlock Your <span>Potential</span>
             </h1>
@@ -26,15 +21,16 @@ function Hero() {
               About Us
             </a>
           </div>
-          <div className="hero-image" data-aos="fade-left">
-            <img src= {hero} alt="Learning Illustration" />
+
+          <div className="hero-img-wrapper" data-aos="fade-left">
+            <img src={hero} alt="Learning Illustration" />
           </div>
         </div>
       </section>
 
       {/* WhatsApp Floating Button */}
       <a
-        href= {url}
+        href={url}
         className="contact_icon"
         target="_blank"
         rel="noopener noreferrer"
