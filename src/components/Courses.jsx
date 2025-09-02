@@ -6,7 +6,10 @@ import data_analysis from '../assets/data-analysis.jpeg';
 import cpp from '../assets/Cpp.jpg';
 import react from '../assets/React.jpg';
 import HTML from '../assets/HTML.jpg';
+import GPU from '../assets/GPU.png';
 import SolidWorks from '../assets/SolidWorks.png';
+import SAPMM from '../assets/SAPMM.jpg';
+import GIT from '../assets/GIT.png';
 
 const courses = [
   {
@@ -64,7 +67,29 @@ const courses = [
     image: SolidWorks,
     level: "Intermediate",
     courseCode: "ME107"
-  }
+  },
+  {
+  title: "Hands-on GPU Programming",
+  desc: "Unlock the power of parallel computing with CUDA. Learn basics of parallelism, GPU programming concepts, CUDA development environment, memory and execution models, error handling, atomics, streams, and debugging. Solve real-world problems, explore design patterns, tackle puzzles, and build projects to gain hands-on expertise in high-performance computing.",
+  image: GPU,  // replace with actual image import
+  level: "Intermediate to Advanced",
+  courseCode: "GPU201"
+},
+{
+  title: "SAP MM (Materials Management)",
+  desc: "Master SAP MM to streamline procurement and inventory processes. Learn organizational structure, master data management, procurement cycles, purchase requisitions, purchase orders, goods receipts, invoice verification, pricing, valuation, and integration with other SAP modules. Gain hands-on skills for configuration, real-time reporting, and optimizing supply chain operations.",
+  image: SAPMM,  // replace with actual image import
+  level: "Beginner to Intermediate",
+  courseCode: "SAPMM301"
+},
+{
+  title: "Git & GitHub",
+  desc: "Learn version control with Git and collaborate using GitHub. Understand repositories, commits, branches, merges, pull requests, and conflict resolution. Gain hands-on skills in distributed version control, managing workflows, open-source collaboration, and integrating GitHub with modern development pipelines.",
+  image: GIT,  // replace with actual image import
+  level: "Beginner",
+  courseCode: "GIT201"
+}
+
 ];
 
 function Courses() {
